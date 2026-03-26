@@ -5,5 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div class="bottom-controls">
+        <h1>Drag vertically to squeeze</h1>
+
+        <div class="controls-container">
+          <label class="checkbox-label">
+            <input type="checkbox" id="followMouseCheckbox" />
+            <span class="checkmark-icon"></span>
+            Follow mouse
+          </label>
+        </div>
+      </div>
+
+      <div class="canvas-wrapper">
+        <canvas width="1280" height="960"></canvas>
+        <div class="drag-trigger"></div>
+      </div>
+      <div class="loader"><span></span></div>
+    </main>
+  </body>
 </html>
